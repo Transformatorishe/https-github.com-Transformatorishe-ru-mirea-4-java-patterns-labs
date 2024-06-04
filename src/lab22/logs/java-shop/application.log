@@ -1,0 +1,53 @@
+824  [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils – Could not detect default configuration classes for test class [com.example.unit22.lab22ApplicationTests]: lab22ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+1156 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper – Found @SpringBootConfiguration com.example.unit22.Application for test class com.example.unit22.lab22ApplicationTests
+2141 [Test worker] INFO  r.mirea.lab22.lab22ApplicationTests – Starting lab22ApplicationTests using Java 17.0.10 with PID 55330 (started by igor in /home/igor/IdeaProjects/JavaPatternMirea/Lab_21)
+2144 [Test worker] INFO  r.mirea.lab22.lab22ApplicationTests – No active profile set, falling back to 1 default profile: "default"
+3858 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+4214 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 339 ms. Found 2 JPA repository interfaces.
+5591 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+6640 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@b94703b
+6644 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+6734 [Test worker] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+6850 [Test worker] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 6.4.4.Final
+6934 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator – HHH000026: Second-level cache disabled
+7495 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo – No LoadTimeWeaver setup: ignoring JPA class transformer
+7620 [Test worker] WARN  org.hibernate.orm.deprecation – HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+9561 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+9571 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+11008 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11085 [Test worker] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping – Adding welcome page template: index
+12106 [Test worker] INFO  r.mirea.lab22.lab22ApplicationTests – Started lab22ApplicationTests in 10.57 seconds (process running for 14.102)
+13267 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+13273 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+13312 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+423  [restartedMain] INFO  com.example.unit22.Application – Starting Application using Java 20.0.2.1 with PID 25373 (/Users/alekseyruban/Library/Mobile Documents/com~apple~CloudDocs/Mirea/Шаблоны ппя Java/JavaMirea4/Units/unit22/build/classes/java/main started by alekseyruban in /Users/alekseyruban/Library/Mobile Documents/com~apple~CloudDocs/Mirea/Шаблоны ппя Java/JavaMirea4/Units/unit22)
+425  [restartedMain] INFO  com.example.unit22.Application – No active profile set, falling back to 1 default profile: "default"
+445  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor – Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+445  [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor – For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+795  [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+869  [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 70 ms. Found 2 JPA repository interfaces.
+1232 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port 8080 (http)
+1238 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+1239 [restartedMain] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+1239 [restartedMain] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/10.1.19]
+1263 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+1263 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 817 ms
+1341 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+1449 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2a17001c
+1449 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+1474 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+1503 [restartedMain] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 6.4.4.Final
+1521 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator – HHH000026: Second-level cache disabled
+1630 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo – No LoadTimeWeaver setup: ignoring JPA class transformer
+1657 [restartedMain] WARN  org.hibernate.orm.deprecation – HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2063 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2064 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+2313 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2332 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping – Adding welcome page template: index
+2571 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer – LiveReload server is running on port 35729
+2581 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+2588 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port 8080 (http) with context path ''
+2597 [restartedMain] INFO  com.example.unit22.Application – Started Application in 2.35 seconds (process running for 2.686)
+109662 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+109665 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+109666 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
